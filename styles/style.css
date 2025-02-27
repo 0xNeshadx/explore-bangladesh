@@ -197,3 +197,143 @@ margin-bottom: 20px;
 .cart-yellow {
     background-color: #FFF8E5;
 }
+
+
+  /* Blockquote */
+  .block-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f9fafb;
+}
+
+.block-container{
+    max-width: 1200px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 30px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blockquote{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555555;
+    background-image: url('../images/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 65px;
+    padding-top: 20px;
+}
+
+.blockquote p{
+    margin: 0;
+}
+
+.blockquote strong{
+    font-size: 20px;
+    color: #222;
+    display: block;
+    margin-top: 20px;
+}
+
+.blockquote footer{
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Satellite 1 */
+.news-section{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.news-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.news-description{
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+}
+
+.news-card{
+    display: flex;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #E5E7EB;
+}
+
+.news-image{
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.news-content{
+    text-align: left;
+}
+
+.news-header{
+    font-size: 32px;
+    font-weight: 600;
+    color: #222222;
+    margin: 0 0 10 0;
+}
+
+.news-source{
+    font-size: 1rem;
+    font-weight: 700;
+    color: blue;
+    margin-bottom: 8px;
+}
+
+.news-meta{
+    font-size: 0.9rem;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.news-details{
+    font-size: 1rem;
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.news-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #047857;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.news-btn:hover{
+    background-color: #0000FF;
+}
