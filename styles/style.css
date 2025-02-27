@@ -619,3 +619,36 @@ margin-bottom: 20px;
     font-size: 1rem;
     color: #555555;
 }
+
+
+  /* Footer */
+  .footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 1px solid #e5e7eb;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+    
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-link img{
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.icon-link:hover img{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
